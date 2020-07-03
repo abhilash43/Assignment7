@@ -1,0 +1,7 @@
+# concatenate two dictionaries
+dict_1={"Naveen":8,"rahul":42,"pavan":35}
+dict_2={"sai":60,"nithin":62,"balu":39}
+dict_3={}
+for d in (dict_1,dict_2):dict_3.update(d)
+print(dict_3)
+
