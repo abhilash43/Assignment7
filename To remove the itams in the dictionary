@@ -1,0 +1,4 @@
+dictt={1:3,2:5,4:9}
+if 1 in dictt:
+   del dictt[1]
+print(dictt)
