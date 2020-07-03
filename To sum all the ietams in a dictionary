@@ -1,0 +1,5 @@
+dict={'orange' : 100,"apple":600,"eggs":500}
+sum=0
+for x in dict:
+    sum=sum+dict[x]
+print(sum)
